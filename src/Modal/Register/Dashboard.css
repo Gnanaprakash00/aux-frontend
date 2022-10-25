@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Slab:wght@300;400;700&display=swap');
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.login4 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers {
+    min-width: 90%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+}
+
+.containers .block1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+span:nth-child(1) {
+    color: #fb206f;
+}
+
+span:nth-child(2) {
+    color: #d63cff;
+}
+
+span:nth-child(3) {
+    color: #14bef2;
+}
+
+.settings {
+    margin: 0 10.5rem 0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    animation: shake 3s linear infinite;
+    color: #14bef2;
+}
+
+.setting {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+}
+
+.setting:hover {
+    animation: shake 3s linear infinite;
+    color: #14bef2;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.menus {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    border-radius: 2px;
+    top: 0;
+    left: 0;
+    transition: all 0.3s linear;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    border-radius: 2px;
+    top: 0;
+    left: -13rem;
+    transition: all 0.3s linear;
+}
+
+.menus ul {
+    margin-top: 10rem;
+}
+
+.menu ul {
+    margin-top: 10rem;
+}
+
+.menus ul li {
+    color: #14bef2;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu ul li {
+    color: #14bef2;
+    padding: 0.5rem 0;
+}

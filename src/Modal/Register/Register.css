@@ -1,0 +1,55 @@
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Slab:wght@300;400;700&display=swap');
+    * {
+        font-family: 'Chakra Petch', sans-serif;
+    }
+    
+    .login1 {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login1 .login2 {
+        width: 520px;
+        height: 420px;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 5px;
+        border: rgba(255, 255, 255, 0.3);
+    }
+    
+    .login2 input {
+        outline: none;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 2px;
+        width: 300px;
+        height: 40px;
+        padding: 0 1.5rem;
+        color: gray;
+    }
+    
+    .container {
+        margin: 2.2rem 0 0;
+    }
+    
+    .account:hover {
+        transition: all 0.1s linear;
+        color: rgb(82, 150, 53);
+        cursor: pointer;
+    }
+    
+    .register {
+        color: rgb(82, 150, 53);
+        cursor: pointer;
+    }
+    
+    .error {
+        border-bottom: 3px solid red;
+        transition: all 0.1s linear;
+    }
